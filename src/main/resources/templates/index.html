@@ -1,70 +1,111 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 <head>
-<meta charset="utf-8"/>
-<title>Users</title>
-    <style>
+    <meta charset="UTF-8">
+    <title>Users</title>
 
-        table {
-            border-collapse: collapse;
-            width: 100%;
+<script>
+    setTimeout(function(){
+        window.location.href = '/';
+    }, 5000);
+</script>
+<style>
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+    }
+    section
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #042104;
+        animation: animateBg 10s linear infinite;
+    }
+    @keyframes animateBg
+    {
+        0%
+        {
+            filter: hue-rotate(0deg);
         }
-
-        th, td {
-            text-align: left;
-            padding: 8px;
+        100%
+        {
+            filter: hue-rotate(360deg);
         }
-
-        tr:nth-child(even){background-color: #f2f2f2}
-
-        th {
-            background-color: rgba(63, 71, 63, 0.88);
-            color: white;
+    }
+    section .loader
+    {
+        position: relative;
+        width: 120px;
+        height: 120px;
+    }
+    section .loader span
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: rotate(calc(18deg * var(--i)));
+    }
+    section .loader span::before
+    {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 60%;
+        background: #00ff0a;
+        box-shadow: 0 0 10px #00ff0a,
+        0 0 20px #00ff0a,
+        0 0 40px #00ff0a,
+        0 0 60px #00ff0a,
+        0 0 80px #00ff0a,
+        0 0 100px #00ff0a;
+        animation: animate 2s linear infinite;
+        animation-delay: calc(0.1s * var(--i));
+    }
+    @keyframes animate
+    {
+        0%
+        {
+            transform: scale(1);
         }
-        .button {
-            background-color: #4CAF50;
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
+        80%,100%
+        {
+            transform: scale(0);
         }
-    </style>
+    }
+</style>
 </head>
 <body>
-<div align="center">
-    <a th:href="new"> <button><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Add_user_icon_%28blue%29.svg/1200px-Add_user_icon_%28blue%29.svg.png" alt="Кнопка «button»" width="200" height="50"></button></a></h1>
-    <br/><br/>
-    <table border="1" cellpadding="10">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>Surname</th>
-                <th>Job</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr th:each="product : ${listProducts}">
-            	<td th:text="${product.id}">ID</td>
-                <td th:text="${product.name}">Name</td>
-                <td th:text="${product.surname}">SurName</td>
-                <td th:text="${product.job}">Job</td>
-                    <h1> <td>
-                        <a th:href="@{'/edit/' + ${product.id}}"> <button><img src="https://image.flaticon.com/icons/png/512/2919/2919592.png" alt="Кнопка «button»" width="20" height="30"></button></a></h1>
-                	&nbsp;&nbsp;&nbsp;
-                    <a th:href="@{'/delete/' + ${product.id}}"> <button><img src="https://free-images.com/or/357f/recycle_bin_wastebasket_155650.jpg" alt="Кнопка «button»" width="20" height="30"></button></a></h1>
-
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>    
+<section>
+    <div class="loader">
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+        <span style="--i:4;"></span>
+        <span style="--i:5;"></span>
+        <span style="--i:6;"></span>
+        <span style="--i:7;"></span>
+        <span style="--i:8;"></span>
+        <span style="--i:9;"></span>
+        <span style="--i:10;"></span>
+        <span style="--i:11"></span>
+        <span style="--i:12;"></span>
+        <span style="--i:13;"></span>
+        <span style="--i:14;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:16;"></span>
+        <span style="--i:17;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:19;"></span>
+        <span style="--i:20;"></span>
+    </div>
 </body>
 </html>

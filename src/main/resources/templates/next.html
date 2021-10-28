@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8"/>
+<title>Users</title>
+    <style>
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even){background-color: #f2f2f2}
+
+        th {
+            background-color: rgba(63, 71, 63, 0.88);
+            color: white;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div align="center">
+    <a th:href="new"> <button><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Add_user_icon_%28blue%29.svg/1200px-Add_user_icon_%28blue%29.svg.png" alt="Кнопка «button»" width="200" height="50"></button></a></h1>
+    <br/><br/>
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Job</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="product : ${listProducts}">
+            	<td th:text="${product.id}">ID</td>
+                <td th:text="${product.name}">Name</td>
+                <td th:text="${product.surname}">SurName</td>
+                <td th:text="${product.job}">Job</td>
+                    <h1> <td>
+                        <a th:href="@{'/edit/' + ${product.id}}"> <button><img src="https://image.flaticon.com/icons/png/512/2919/2919592.png" alt="Кнопка «button»" width="20" height="30"></button></a></h1>
+                	&nbsp;&nbsp;&nbsp;
+                    <a th:href="@{'/delete/' + ${product.id}}"> <button><img src="https://free-images.com/or/357f/recycle_bin_wastebasket_155650.jpg" alt="Кнопка «button»" width="20" height="30"></button></a></h1>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>    
+</body>
+</html>

@@ -22,14 +22,14 @@ public class AppController {
 		List<Product> listProducts = service.listAll();
 		model.addAttribute("listProducts", listProducts);
 		
-		return "index";
+		return "next";
 	}
 	@RequestMapping("/style")
 	public String viewstylePage(Model model) {
 		List<Product> listProducts = service.listAll();
 		model.addAttribute("listProducts", listProducts);
 
-		return "style";
+		return "index";
 	}
 
 	@RequestMapping("/new")
