@@ -7,18 +7,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3651cc41-d56a-4661-aecd-58789a51b832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/next.html" afterDir="false" />
+    <list default="true" id="3651cc41-d56a-4661-aecd-58789a51b832" name="Default Changelist" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hacker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3fce209b-cd66-4459-9b8a-31639829210f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3fce209b-cd66-4459-9b8a-31639829210f/storage_v2/_src_/database/telegram_spring.CyPdAQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3fce209b-cd66-4459-9b8a-31639829210f/storage_v2/_src_/database/telegram_spring.CyPdAQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3fce209b-cd66-4459-9b8a-31639829210f/storage_v2/_src_/database/telegram_spring.CyPdAQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3fce209b-cd66-4459-9b8a-31639829210f/storage_v2/_src_/database/telegram_spring.CyPdAQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/960bb4b1-2a4a-4a35-90bd-033ec6276317.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/960bb4b1-2a4a-4a35-90bd-033ec6276317/storage_v2/_src_/database/dcpds27nqdqjdi.2tCPgw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/960bb4b1-2a4a-4a35-90bd-033ec6276317/storage_v2/_src_/database/dcpds27nqdqjdi.2tCPgw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/960bb4b1-2a4a-4a35-90bd-033ec6276317/storage_v2/_src_/database/dcpds27nqdqjdi.2tCPgw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/960bb4b1-2a4a-4a35-90bd-033ec6276317/storage_v2/_src_/database/dcpds27nqdqjdi.2tCPgw/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/codejava/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/codejava/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/edit_product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/new_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/new_product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/next.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,12 +48,14 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="JPA Inspector" value="true" />
         <entry key="JPA Palette" value="true" />
         <entry key="JPA Structure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="JPA Inspector" value="false" />
         <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="false" />
       </map>
@@ -48,6 +72,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -70,6 +95,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ProductManager\src\main\resources\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\log\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -104,8 +132,38 @@
       <workItem from="1634480258066" duration="825000" />
       <workItem from="1634572467545" duration="156000" />
       <workItem from="1635423549088" duration="1227000" />
-      <workItem from="1635427014089" duration="1583000" />
+      <workItem from="1635427014089" duration="3036000" />
+      <workItem from="1635430620729" duration="105000" />
+      <workItem from="1635694806284" duration="559000" />
+      <workItem from="1635764294863" duration="38000" />
+      <workItem from="1635766961307" duration="147000" />
+      <workItem from="1635942625202" duration="1048000" />
+      <workItem from="1636007873695" duration="507000" />
+      <workItem from="1636009134641" duration="102000" />
+      <workItem from="1636010860970" duration="197000" />
+      <workItem from="1636014273379" duration="1725000" />
+      <workItem from="1636022258678" duration="1962000" />
+      <workItem from="1636026235137" duration="1964000" />
+      <workItem from="1636032069703" duration="638000" />
+      <workItem from="1636083718227" duration="2860000" />
+      <workItem from="1636122024802" duration="804000" />
+      <workItem from="1636176372982" duration="590000" />
+      <workItem from="1636194487030" duration="259000" />
+      <workItem from="1636296395486" duration="1267000" />
+      <workItem from="1636300055064" duration="200000" />
+      <workItem from="1636301356897" duration="1279000" />
+      <workItem from="1636350279033" duration="274000" />
+      <workItem from="1638707461352" duration="4010000" />
+      <workItem from="1638788022850" duration="821000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1635428896240</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635428896240</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,5 +179,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>
